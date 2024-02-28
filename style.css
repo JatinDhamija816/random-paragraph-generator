@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+}
+
+.container,
+p {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+input,
+button {
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    margin: 10px;
+}
+
+input {
+    border-bottom: 1px solid;
+}
+
+p {
+    border: 1px solid;
+    word-spacing: 15px;
+    line-height: 19px;
+    font-family: 'Gill Sans';
+    margin: 15px auto;
+}
